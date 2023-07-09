@@ -1,0 +1,135 @@
+:root {
+    --blue: #319eed;
+    --black: #192a56;
+    --light-color: #666;
+    --putih: #fff;
+}body{
+    background:#f3f3f3;
+    color:#333;
+    width:100%;
+    font-family:sans-serif;
+    margin:0 auto;
+}
+
+.header{
+    margin:auto;
+    height:120px;
+    line-height:120px;
+    background-color: var(--black);
+    color: var(--putih);
+    text-align:center
+}
+
+.logokiri{
+    float: left;
+    height:120px;
+    line-height:120px;
+    margin:auto;
+}
+.logokiri img{
+    width: 90px;
+}
+.logokanan{
+    float: right;
+    height:120px;
+    line-height:120px;
+    margin:auto;
+}
+.logokanan img{
+    width: 90px;
+}
+
+
+
+.menu{
+    background-color:var(--black); 
+    height:50px; 
+    line-height:50px; 
+    position:relative;
+    margin:0 auto;
+    padding:0 auto;
+}
+.jarak{
+    padding:0 2pc;
+}
+
+.menu ul {
+    list-style:none;
+}
+
+.menu ul li a {
+    float:left; 
+    width:70px; 
+    display:block; 
+    text-align:center; 
+    color:var(--putih); 
+    text-decoration:none; 
+}
+
+.menu ul li a:hover {
+    color: var(--putih);
+    background: var(--blue);}
+
+.content{
+    width:100%;
+    margin:auto;
+    height:420px;
+    padding:0px;
+    background: var(--putih);
+    color:#333;
+}
+
+.border{
+    border: solid var(--putih);
+    padding-bottom:1pc;
+    ;
+}
+
+.kiri{
+    width:75%;
+    float:left;
+    margin:auto;
+    background:var(--putih);
+    height:420px;
+}
+
+.kanan{
+    width:25%;
+    float:right;
+    margin:auto;
+    background:var(--black);
+    height:420px;
+    color: var(--putih)
+}
+
+.undecor{
+    text-decoration:none;
+    color: var(--putih);
+}
+.undecor:hover{
+    color: var(--putih);
+    background: var(--blue);
+}
+
+.footer{
+    margin:auto;
+    height:40px;
+    line-height:40px;
+    background:var(--black);
+    color:var(--putih);
+    margin-bottom: 1pc;
+    text-align:center
+}
+
+
+.btn {
+    display: inline-block;
+    color: var(--putih);
+    background: var(--black);
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background: var(--blue);
+}
